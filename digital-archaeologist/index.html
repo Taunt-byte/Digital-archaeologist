@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050805">
+  <title>Digital Archaeologist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="computer">
+    <header class="topbar">
+      <div class="brand">
+        <span class="status-light"></span>
+        DIGITAL ARCHAEOLOGIST
+      </div>
+
+      <div class="system-status">
+        <span id="status">SYSTEM ONLINE</span>
+        <span>V2.0</span>
+      </div>
+    </header>
+
+    <section class="screen">
+      <div class="screen-header">
+        <span>ARCHIVE TERMINAL</span>
+        <span id="clock">00:00:00</span>
+      </div>
+
+      <div id="output" aria-live="polite"></div>
+
+      <form id="command-form" autocomplete="off">
+        <label id="prompt" for="command">C:\&gt;</label>
+        <input
+          id="command"
+          type="text"
+          autofocus
+          spellcheck="false"
+          autocomplete="off"
+          aria-label="Terminal command"
+        >
+      </form>
+    </section>
+
+    <footer class="footer">
+      <span>MEMORY: <span id="memory">0%</span></span>
+      <span>ARCHIVE: <span id="archive">0/5</span></span>
+      <span>CONNECTION: LOCAL</span>
+    </footer>
+  </main>
+
+  <div class="scanlines"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
