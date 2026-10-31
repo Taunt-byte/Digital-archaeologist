@@ -33,7 +33,7 @@ A modern web browser and a code editor such as Visual Studio Code.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/digital-archaeologist.git
+   git clone https://github.com/Taunt-byte/Digital-archaeologist.git
    ```
 
 2. Navigate to the project directory:
